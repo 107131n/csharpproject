@@ -53,7 +53,7 @@
             this.lblTime.AutoSize = true;
             this.lblTime.BackColor = System.Drawing.Color.White;
             this.lblTime.Font = new System.Drawing.Font("휴먼둥근헤드라인", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblTime.Location = new System.Drawing.Point(212, 339);
+            this.lblTime.Location = new System.Drawing.Point(308, 339);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(0, 12);
             this.lblTime.TabIndex = 0;
@@ -136,7 +136,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.BackColor = System.Drawing.Color.White;
             this.lblTitle.Font = new System.Drawing.Font("휴먼둥근헤드라인", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblTitle.Location = new System.Drawing.Point(264, 10);
+            this.lblTitle.Location = new System.Drawing.Point(249, 10);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(148, 19);
             this.lblTitle.TabIndex = 4;
@@ -145,11 +145,11 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, -12);
+            this.pictureBox1.Location = new System.Drawing.Point(-18, -13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(455, 398);
+            this.pictureBox1.Size = new System.Drawing.Size(455, 401);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabIndex = 41;
             this.pictureBox1.TabStop = false;
             // 
             // Form1
@@ -157,7 +157,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(437, 375);
+            this.ClientSize = new System.Drawing.Size(419, 375);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblName);
@@ -171,7 +171,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "디데이 계산기";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

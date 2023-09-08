@@ -27,7 +27,7 @@ namespace 디데이 //DateTimePicker 컨트롤을 이용한 디데이 계산기
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            lblTime.Text = DateTime.Now.ToString("G"); //G:자세한 일반/날짜 시간(ex. 2023-09-08 오전 9:10:00 형태)
+            lblTime.Text = DateTime.Now.ToString("T"); 
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e) //날짜를 선택할 수 있는 달력 형태
@@ -46,7 +46,7 @@ namespace 디데이 //DateTimePicker 컨트롤을 이용한 디데이 계산기
                 int ts = -(DateTime.Now - dateTimePicker1.Value).Days;
                 ts = ts + 1;
 
-                if (DateTime.Now.Date == dateTimePicker1.Value.Date) //d ateTimePicker에서 오늘 날짜를 선택한 경우
+                if (DateTime.Now.Date == dateTimePicker1.Value.Date) //dateTimePicker에서 오늘 날짜를 선택한 경우
                 {
                     lblResult.Text = textBox1.Text +  " D-DAY 입니다.";
                 }
